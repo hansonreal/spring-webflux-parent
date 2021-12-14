@@ -34,6 +34,11 @@ public class ReactorExample {
         Stream<Integer> integerStream = integerList.stream();
         Flux.fromStream(integerStream);//API-3
 
+
+
+        Flux.fromArray(integers).subscribe(System.out::println);
+
+        Mono.just(3).subscribe(System.out::println);
     }
 
 }

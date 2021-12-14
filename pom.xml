@@ -19,6 +19,7 @@
     <modules>
         <module>webflux-01-reactor</module>
         <module>webflux-02-reactor</module>
+        <module>webflux-03-app</module>
     </modules>
 
     <properties>
